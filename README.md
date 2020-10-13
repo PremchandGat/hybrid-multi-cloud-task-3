@@ -31,6 +31,7 @@ mysql instance has to be part of private  subnet so that outside world can't con
    change aws profile name 
 3. Run command terraform init
 4. Run command terraform apply </pre>
+# create  terraform code
 <pre>
 provider "aws" {
   region  = "ap-south-1"
